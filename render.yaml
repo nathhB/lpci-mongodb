@@ -3,6 +3,7 @@ services:
     name: mongodb
     env: docker
     autoDeploy: false
+    region: frankfurt
     disk:
       name: data
       mountPath: /data/db
